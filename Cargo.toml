@@ -1,0 +1,10 @@
+[package]
+name = "ollama-gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.13.1", features = ["tokio", "markdown"] }
+ollama-rs = { version = "0.2.4", features = ["stream"] }
+tokio = { version = "1.43.0", features = ["full"] }
+tokio-stream = "0.1.17"
